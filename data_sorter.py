@@ -70,6 +70,33 @@ def _partition(items, low, high):
     # Swap items[i+1] and items[high] (the pivot)
     items[i + 1], items[high] = items[high], items[i + 1] 
     return i + 1, partition_steps
-
-# --- 4. DISPLAY AND COMPARISON (Member 2's Final Task) ---
+22UG3-0632) ---
 # ... (rest of the file)
+# --- 2. DATA HANDLING FUNCTIONS (Member 2's Initial Task) ---
+def get_manual_input():
+# ... (Full function implementation)
+    return data
+
+def generate_random_data():
+# ... (Full function implementation)
+    return data
+
+# ... (Bubble Sort code by Member 1 is here)
+
+# --- Merge Sort (Member 2's Task) ---
+def merge_sort(arr):
+# ... (Full function implementation)
+    return perf
+
+def _merge_sort_recursive(arr):
+# ... (Full helper function implementation)
+    return result, steps
+# 
+
+# ... (Quick Sort code by Member 1 is here)
+
+# --- 5. MAIN MENU AND EXECUTION (Member 2's Final Integration) ---
+def main():
+# ... (Full function implementation, handles options 1, 2, 3, 4, 5, 6, 7)
+    if __name__ == "__main__":
+        main()
